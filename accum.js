@@ -11,7 +11,7 @@ The parameter of accum is a string which includes only letters from a..z and A..
 */
 
 
-function accum(s) {
+function accumm(s) {
   let array=[];
   for(let i =0; i < s.length; i++) {
     let b =s[i].toLowerCase().repeat(i);
